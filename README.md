@@ -15,5 +15,5 @@ cd client && npm start
 Terminal 2
 
 ```
-cd client && npm start
+cd api && npm start
 ```
