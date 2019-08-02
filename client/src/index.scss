@@ -1,0 +1,56 @@
+@import "theme";
+
+body {
+  margin: 0;
+  font-family: "Roboto", "Oxygen", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $sd-color-background;
+  padding: 20px;
+
+  @media (max-width: 767px) {
+    h1 {
+      font-size: 24px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 18px;
+    }
+    h4 {
+      font-size: 16px;
+    }
+    p {
+      font-size: 10px;
+      margin: 0;
+    }
+    .app-container-row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(10px + 2vmin);
+      color: white;
+    }
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.row {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.column {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

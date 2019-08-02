@@ -1,0 +1,24 @@
+@import "../../theme.scss";
+
+.button-container {
+  height: 40px;
+  margin: 10px;
+  border-radius: 30px;
+  border-width: 2px;
+  border-color: $sd-color-background;
+  background-color: $sd-color-secondary;
+  border-color: $sd-color-background;
+  color: $sd-color-background;
+  outline: none;
+  font-size: 24px;
+  padding: 0 20px;
+
+  &:disabled {
+    background-color: sd-color-secondary;
+    opacity: 0.3;
+  }
+
+  p {
+    margin: 0;
+  }
+}
